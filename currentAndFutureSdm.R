@@ -184,6 +184,7 @@ ggsave("output/habronattusCurrentSdm.jpg",  width = 8, height = 6)
 
 # CMIP6 is the most current and accurate modeling data
 # More info: https://pcmdi.llnl.gov/CMIP6/
+
 #downloading future climate data
 futureClimateRaster <- cmip6_world("CNRM-CM6-1", "585", "2061-2080", var = "bioc", res=2.5, path="data/cmip6")
 
